@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/360Player.iml" filepath="$PROJECT_DIR$/360Player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/360-Video-Player-for-Android.iml" filepath="$PROJECT_DIR$/360-Video-Player-for-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rajawali/rajawali.iml" filepath="$PROJECT_DIR$/rajawali/rajawali.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rajawali-phone-vr/rajawali-phone-vr.iml" filepath="$PROJECT_DIR$/rajawali-phone-vr/rajawali-phone-vr.iml" />
       <module fileurl="file://$PROJECT_DIR$/rajawalicardboard/rajawalicardboard.iml" filepath="$PROJECT_DIR$/rajawalicardboard/rajawalicardboard.iml" />
     </modules>
   </component>
