@@ -6,12 +6,13 @@ import android.view.View;
 
 import com.google.vrtoolkit.cardboard.CardboardView;
 
-import org.rajawali3d.surface.IRajawaliSurface;
-import org.rajawali3d.surface.IRajawaliSurfaceRenderer;
+import org.rajawali3d.renderer.ISurfaceRenderer;
+import org.rajawali3d.view.ISurface;
 
-public class RajawaliCardboardView extends CardboardView implements IRajawaliSurface {
 
-    private IRajawaliSurfaceRenderer renderer;
+public class RajawaliCardboardView extends CardboardView implements ISurface {
+
+    private ISurfaceRenderer renderer;
 
     public RajawaliCardboardView(Context context) {
         super(context);
@@ -71,7 +72,7 @@ public class RajawaliCardboardView extends CardboardView implements IRajawaliSur
     }
 
     @Override
-    public void setSurfaceRenderer(IRajawaliSurfaceRenderer renderer) throws IllegalStateException {
+    public void setSurfaceRenderer(ISurfaceRenderer renderer) throws IllegalStateException {
 
         if (this.renderer != null)
             throw new IllegalStateException("A renderer has already been set for this view.");

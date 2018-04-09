@@ -10,7 +10,7 @@ import com.google.vrtoolkit.cardboard.Viewport;
 
 import org.rajawali3d.math.Matrix4;
 import org.rajawali3d.math.Quaternion;
-import org.rajawali3d.renderer.RajawaliRenderer;
+import org.rajawali3d.renderer.Renderer;
 
 import java.nio.Buffer;
 import java.nio.FloatBuffer;
@@ -19,7 +19,7 @@ import java.nio.IntBuffer;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-public abstract class RajawaliCardboardRenderer extends RajawaliRenderer implements CardboardView.StereoRenderer {
+public abstract class RajawaliCardboardRenderer extends Renderer implements CardboardView.StereoRenderer {
 
     private long ellapsedRealtime;
     private double deltaTime;
